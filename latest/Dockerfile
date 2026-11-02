@@ -2,7 +2,7 @@ FROM ghcr.io/cloudpunks/alpine:3.24@sha256:e86358e09c99af83800967323e85560c8c3d9
 ENTRYPOINT [""]
 
 # renovate: datasource=gitlab-releases depName=gitlab-org/cli
-ENV GITLAB_CLI_VERSION=1.126.0
+ENV GITLAB_CLI_VERSION=1.127.0
 
 ARG TARGETARCH
 
